@@ -1,0 +1,416 @@
+.infomation {
+    width: 100%;
+    height: 530px;
+    margin: 15px 15px;
+    border-radius: 20px;
+    background-color: rgb(235, 243, 245);
+    display: flex;
+    flex-direction: column;
+}
+
+.top-taskbar {
+    margin-top: -5px;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ct-left {
+    font-weight: bold;
+    color: rgb(108, 108, 108);
+}
+
+.top-taskbar-right {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    padding: 5px;
+}
+
+.avt {
+    height: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 0.001px solid rgb(230, 195, 233);
+}
+
+.name {
+    padding-left: 7px;
+    font-weight: bold;
+    color: rgb(186, 60, 217);
+}
+
+.content-top,
+.top-taskbar-right,
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    justify-content: space-between;
+    margin-top: -1px;
+}
+
+.content-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-left-top {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px 20px;
+    background-color: rgb(131, 131, 239);
+}
+
+.logo-home {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 30px;
+    transition: all 0.5s;
+}
+
+.logo-home:hover {
+    width: 35px;
+}
+
+.logo-home:hover~.name-home {
+    opacity: 1;
+}
+
+.name-home {
+    padding-left: 50px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 19px;
+    transition: all 0.5s;
+    color: rgb(220, 246, 246);
+    text-shadow: 0 0 10px rgba(245, 230, 230, 0.9);
+    opacity: 0;
+}
+
+.content-left-top1 p {
+    font-weight: 400;
+    margin: 10px 2px;
+    font-size: 18px;
+}
+
+.content-left-top button {
+    font-weight: bold;
+    color: rgb(131, 131, 239);
+    margin: 25px 2px 10px 2px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    box-shadow: 0 0 10px rgba(65, 64, 64, 0.7);
+}
+
+.content-left-top1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content-left-middle {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px 20px;
+    background-color: rgb(211, 211, 246);
+}
+
+.content-left-middle div {
+    font-weight: bold;
+}
+
+.content-fb {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content-upwork {
+    background-color: white;
+}
+
+.content-fb div {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.content-fb1-chart {
+    width: 65px;
+    margin-right: 20px;
+}
+
+.content-fb2 {
+    padding-left: 15px;
+}
+
+.content-fb1 div {
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    text-shadow: 0 0 10px rgb(166, 245, 178);
+}
+
+.content-fb1-logo {
+    position: absolute;
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 50px;
+    top: -35px;
+    right: -30px;
+}
+
+.content-fb2 {
+    margin-left: 20px;
+}
+
+.content-fb2-1 img {
+    width: 20px;
+    margin: 5px 20px;
+}
+
+.content-fb2-2 img {
+    width: 20px;
+}
+
+.content-fb2-2 p {
+    font-size: 13px;
+}
+
+.content-fb2-2-1 {
+    margin-right: 13px;
+}
+
+.content-fb2-2-3 {
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.number-friends-column {
+    cursor: pointer;
+}
+
+.number-friends-column:hover~.number-friends {
+    opacity: 1;
+}
+
+.number-friends {
+    transition: all 0.5s;
+    padding: 5px 10px;
+    right: 5px;
+    border-radius: 10px;
+    top: 30px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.content-fb2-2,
+.info-profile,
+.content-left-bottom,
+.content-fb1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left-top2 {
+    display: inline-block;
+}
+
+.content-left-bottom {
+    margin-top: 15px;
+}
+
+.content-left-bottom div {
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.info-profile img {
+    z-index: 1;
+    top: -10px;
+    left: -25px;
+    position: absolute;
+    width: 60px;
+}
+
+.profile-git {
+    margin-top: 13px;
+    border-radius: 10px;
+    width: 390px;
+}
+
+.info-profile-up img {
+    z-index: 1;
+    top: -10px;
+    border: 5px solid;
+    right: 30px;
+    border-radius: 10px;
+    position: absolute;
+    width: 55px;
+}
+
+.upwork {
+    left: -15px;
+    position: absolute;
+}
+
+.profile-up-logo:hover,
+.profile-git-logo:hover {
+    filter: blur(100px);
+}
+
+.profile-up-logo,
+.profile-git-logo {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.profile-up {
+    margin-top: 13px;
+    box-shadow: 0 0 10px rgba(144, 89, 89, 0.5);
+    border-radius: 10px;
+    width: 400px;
+    height: 222px;
+}
+
+/* ///// */
+.content-right {
+    color: rgb(39, 92, 81);
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background-color: rgb(255, 255, 255);
+}
+
+.content-right-top,
+.info1-profile2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-right-profile {
+    margin-left: 10px;
+    padding: 15px;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(15, 209, 173);
+    text-shadow: 0 0 4px rgb(247, 193, 193);
+}
+
+
+.info1,
+.skill div,
+.info1-profile2-dl,
+.info2 div {
+    display: flex;
+    flex-direction: row;
+}
+
+.info1-profile1 {
+    margin-left: 5px;
+}
+
+.info1-profile1 img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.info1-profile2 {
+    margin-left: 17px;
+}
+
+.info1-profile2-dl {
+    margin-bottom: 5px;
+}
+
+.info1-profile2-dl p,
+.skill p {
+    align-self: center;
+}
+
+.logo-birth {
+    width: 20px;
+    margin-right: 7px;
+}
+
+.logo-loca {
+    width: 25px;
+    margin-left: -2px;
+    margin-right: 7px;
+}
+
+.logo-name {
+    margin-right: 4px;
+    margin-left: -5px;
+    width: 30px;
+}
+
+.char-name {
+    margin-right: 15px;
+}
+
+.skill {
+    margin-top: 20px;
+}
+
+.skill div {
+    margin-bottom: 7px;
+}
+
+.skill-size {
+    margin-left: 20px;
+}
+
+.skill-size img {
+    width: 33px;
+    margin-right: 7px;
+}
+
+.skill-frontend,
+.skill-backend {
+    margin-left: 60px;
+}
+
+.skill-frontend img,
+.skill-backend img {
+    width: 22px;
+    margin-right: 7px;
+}
+
+.no {
+    text-decoration: line-through;
+}
+
+.logo-skill-lang {
+    margin-left: 90px;
+}
+
+.logo-skill-lang img {
+    width: 15px;
+    margin-right: 7px;
+}
+
+.info2 {
+    margin: 20px 30px 10px 30px;
+}
+
+.div-logo-gmail {
+    margin-bottom: 5px;
+}
+
+.info2 img {
+    width: 20px;
+    margin-right: 7px;
+}

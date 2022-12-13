@@ -1,0 +1,25 @@
+* {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(107, 107, 238);
+    height: 565px;
+    margin: 30px 20px;
+    width: 1320px;
+    border-radius: 14px;
+}
+
+.full-view {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    all: unset;
+    display: inherit;
+}
